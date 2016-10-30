@@ -74,10 +74,12 @@ $config["imageDir"] = $config["resourcesDir"]  . "/images";
 <!--[if lt IE 9]><script src="<?php echo $config["resourcesDir"]; ?>/jsvendor/jquery-1.12.2.min.js"></script><![endif]-->
 <!--[if gte IE 9]><!--><script src="<?php echo $config["resourcesDir"]; ?>/jsvendor-dev-only/jquery.js"></script><![endif]-->
 <?php echoJsInPath('/resources-dev/' . $config["mode"] . '/jspack/'); ?>
+<script src="<?php echo $config["resourcesDir"]; ?>/ckeditor/ckeditor.js"></script>
 <?php } else { ?>
 <!--[if lt IE 9]><script src="<?php echo $config["resourcesDir"]; ?>/js/vendor/jquery-1.12.2.min.js"></script><![endif]-->
 <!--[if gte IE 9]><!--><script src="<?php echo $config["resourcesDir"]; ?>/js/vendor/jquery.min.js"></script><![endif]-->
 <script src="<?php echo $config["resourcesDir"]; ?>/js/script.min.js"></script>
+<script src="<?php echo $config["resourcesDir"]; ?>/ckeditor/ckeditor.js"></script>
 <?php } ?>
 </head>
 <body class="<?php echo getBodyClass($pagePath, $bodyClass); ?>">

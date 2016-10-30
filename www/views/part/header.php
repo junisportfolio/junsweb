@@ -6,6 +6,7 @@
 				<a href="#">Juni's<span class="sr-only">juni's</span></a>
 			</h1>
 			<div id="lnb">
+				<h2 class="sr-only">메인 메뉴</h2>
 				<a href="#" class="sitemap"><i class="fa fa-bars" aria-hidden="true"></i></a>
 				<ul>
 					<li><a href="#"><span>About</span></a>

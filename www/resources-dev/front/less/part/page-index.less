@@ -15,8 +15,8 @@
                     padding: 3px 15px;
                     border-radius: 5px;
                     height: 50px;
-
                     #util .vam();
+
                     span{
 
                     }
@@ -33,9 +33,49 @@
             }
         }
     }
+
     .tab-content{
         .main-section{
             display: none;
+
+            &.on,
+            &.active{
+                display: block;
+            }
+
+            .tab-button{
+                ul{
+                    border-bottom: 1px solid #ccc;
+                    text-align: center;
+
+                    li{
+                        display: inline-block;
+
+                        a{
+                            display: inline-block;
+                            padding: 3px 5px;
+                            border-radius: 5px;
+                            font-size: 13px;
+                            height: 40px;
+                            #util .vam();
+
+                            span{
+
+                            }
+                        }
+
+                        &:hover,
+                        &:focus,
+                        &.on,
+                        &.active{
+                            a{
+                                color: red;
+                            }
+                        }
+                    }
+                }
+            }
+
             .list{
                 >li{
                     position: relative;
@@ -57,14 +97,10 @@
 
                     }
                     .list-detail{
-                        position: absolute;
-                        left: 0;
-                        top: 0;
-                        display: block;
+                        display: none;
                         padding-bottom: 30px;
                         height: 250px;
                         overflow: hidden;
-                        background-color: #000;
 
                         &:after{
                             clear: both;
@@ -78,9 +114,11 @@
                         }
                         .img-box{
                             height: 250px;
+                            padding: 5px;
+                            overflow: hidden;
 
                             img{
-
+                                width: 100%;
                             }
                         }
                         .pre-box{
@@ -93,11 +131,8 @@
                             }
                         }
                         .button-box{
-                            position: absolute;
-                            left: 0;
-                            bottom: 0;
                             width: 100%;
-                            text-align: right;
+                            text-align: center;
                             .btn{
 
                             }
@@ -237,18 +272,76 @@
                     }
                 }
             }
-        }
-        #main-about{
-            display: none;
-        }
-        #main-life{
-            display: none;
-        }
-        #main-study{
-            display: none;
-        }
-        #main-work{
-            display: block;
+
+            .main-profile{
+                h4{
+                    a{
+                        display: block;
+                        height: 50px;
+                        line-height: 50px;
+                        overflow: hidden;
+                        background-color: #000;
+                    }
+                }
+                .toggle-content{
+                    padding: 10px;
+                    &:after{
+                        clear: both;
+                        display: block;
+                        content: '';
+                    }
+                    >div{
+                        width: 50%;
+                        height: 200px;
+                        padding: 10px;
+                        float: left;
+                        ul{
+                            height: 100%;
+                            background-color: #ccc;
+                            li{
+                                img{
+
+                                }
+                            }
+                        }
+                    }
+                    .my-picture{
+                        ul{
+                            li{
+                                img{
+
+                                }
+                            }
+                        }
+                    }
+                    .my-card{
+                        ul{
+                            li{
+                                img{
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .main-contact{
+                h4{
+                    a{
+                        display: block;
+                        height: 50px;
+                        line-height: 50px;
+                        overflow: hidden;
+                        background-color: #000;
+                    }
+                }
+
+                .toggle-content{
+                    padding: 10px;
+
+
+                }
+            }
         }
     }
 
@@ -307,6 +400,23 @@
                 #util .vam();
 
             }
+        }
+    }
+}
+
+
+.toggle-menu{
+    .toggle-content{
+        display: none;
+
+    }
+
+    &:hover,
+    &:focus,
+    &.on,
+    &.active,{
+        .toggle-content{
+            display: block;
         }
     }
 }
