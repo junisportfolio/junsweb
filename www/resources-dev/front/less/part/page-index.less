@@ -128,8 +128,10 @@
                 li{
                     position: relative;
                     width: 50%;
-                    padding: 1%;
+                    padding: 0 10px;
+                    margin: 10px 0;
                     float: left;
+                    overflow: hidden;
 
                     .img-box{
                         position: relative;
@@ -168,24 +170,57 @@
                             }
                         }
                     }
+                    &:hover,
+                    &:focus,
+                    &.on,
+                    &.active{
+                        .pre-box{
+                            display: block;
+                        }
+                    }
                     .pre-box{
                         display: none;
-                        .pre-title{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        margin: 0 10px;
+                        height: 100%;
+                        background-color: rgba(0,0,0,0.7);
 
+                        .pre-title{
+                            padding: 10px 10px 5px;
+                            margin: 0;
+                            color: #fff;
+                            #util .ellipsis();
                         }
                         .pre-sub-title{
-
+                            padding: 0 10px;
+                            margin: 0;
+                            color: #ccc;
+                            #util .ellipsis();
                         }
                         .pre{
+                            padding: 20px 10px 0;
+                            margin: 0;
+                            color: #ddd;
+                            height: 180px;
+                            overflow: hidden;
+                        }
+                        .btn-group{
+                            margin-top: 20px;
+                            padding: 5px 20px;
+                            .btn{
 
+                            }
                         }
 
                     }
                     .counter-box{
                         .count{
                             position: absolute;
-                            right: 2%;
-                            bottom: 1%;
+                            right: 10px;
+                            bottom: 0;
+
 
                         }
                     }

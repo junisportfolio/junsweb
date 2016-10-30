@@ -351,6 +351,9 @@
                             <p class="pre">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci asperiores blanditiis consectetur delectus deleniti eos ex facere fuga molestias placeat quidem quos, ratione rem sequi. Culpa necessitatibus quas sunt?
                             </p>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-md btn-default">Detail</a>
+                            </div>
                         </div>
                         <div class="counter-box">
                             <span class="count">100</span>
@@ -371,6 +374,9 @@
                             <p class="pre">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci asperiores blanditiis consectetur delectus deleniti eos ex facere fuga molestias placeat quidem quos, ratione rem sequi. Culpa necessitatibus quas sunt?
                             </p>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-md btn-default">Detail</a>
+                            </div>
                         </div>
                         <div class="counter-box">
                             <span class="count">100</span>
@@ -391,6 +397,9 @@
                             <p class="pre">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci asperiores blanditiis consectetur delectus deleniti eos ex facere fuga molestias placeat quidem quos, ratione rem sequi. Culpa necessitatibus quas sunt?
                             </p>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-md btn-default">Detail</a>
+                            </div>
                         </div>
                         <div class="counter-box">
                             <span class="count">100</span>
@@ -411,6 +420,9 @@
                             <p class="pre">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci asperiores blanditiis consectetur delectus deleniti eos ex facere fuga molestias placeat quidem quos, ratione rem sequi. Culpa necessitatibus quas sunt?
                             </p>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-md btn-default">Detail</a>
+                            </div>
                         </div>
                         <div class="counter-box">
                             <span class="count">100</span>
@@ -431,6 +443,9 @@
                             <p class="pre">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci asperiores blanditiis consectetur delectus deleniti eos ex facere fuga molestias placeat quidem quos, ratione rem sequi. Culpa necessitatibus quas sunt?
                             </p>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-md btn-default">Detail</a>
+                            </div>
                         </div>
                         <div class="counter-box">
                             <span class="count">100</span>
@@ -451,6 +466,9 @@
                             <p class="pre">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci asperiores blanditiis consectetur delectus deleniti eos ex facere fuga molestias placeat quidem quos, ratione rem sequi. Culpa necessitatibus quas sunt?
                             </p>
+                            <div class="btn-group">
+                            <a href="#" class="btn btn-md btn-default">Detail</a>
+                            </div>
                         </div>
                         <div class="counter-box">
                             <span class="count">100</span>
