@@ -1,0 +1,277 @@
+
+@mainSectionListHeight: 50px;
+
+.page-index{
+    .tab-button{
+        ul{
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+
+            li{
+                display: inline-block;
+
+                a{
+                    display: inline-block;
+                    padding: 3px 15px;
+                    border-radius: 5px;
+                    height: 50px;
+
+                    #util .vam();
+                    span{
+
+                    }
+                }
+
+                &:hover,
+                &:focus,
+                &.on,
+                &.active{
+                    a{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    .tab-content{
+        .main-section{
+            display: none;
+            .list{
+                >li{
+                    position: relative;
+                    >a{
+                        position: relative;
+                        display: block;
+                        height: @mainSectionListHeight;
+                        #util .vam();
+                        #util .ellipsis();
+                        background-color: rgba(0,0,0,0.05);
+
+                        .date{
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            height: @mainSectionListHeight;
+                            #util .vam();
+                        }
+
+                    }
+                    .list-detail{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        display: block;
+                        padding-bottom: 30px;
+                        height: 250px;
+                        overflow: hidden;
+                        background-color: #000;
+
+                        &:after{
+                            clear: both;
+                            display: block;
+                            content: '';
+                        }
+                        .img-box,
+                        .pre-box{
+                            width: 50%;
+                            float: left;
+                        }
+                        .img-box{
+                            height: 250px;
+
+                            img{
+
+                            }
+                        }
+                        .pre-box{
+                            height: 220px;
+                            .pre-title{
+
+                            }
+                            .pre{
+
+                            }
+                        }
+                        .button-box{
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            width: 100%;
+                            text-align: right;
+                            .btn{
+
+                            }
+                        }
+
+                    }
+                    &:hover,
+                    &:focus,
+                    &.on,
+                    &.active {
+                        .list-detail{
+                            display: block;
+                        }
+
+                    }
+                }
+            }
+            .work-list{
+                width: 100%;
+                @height: 50px;
+
+                &:after{
+                    clear: both;
+                    display: block;
+                    content: '';
+                }
+
+                li{
+                    position: relative;
+                    width: 50%;
+                    padding: 1%;
+                    float: left;
+
+                    .img-box{
+                        position: relative;
+                        background-color: #ddd;
+                        height: 300px;
+                        padding-bottom: @height;
+                        img{
+
+                        }
+                        .type{
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+
+                        }
+                        .page{
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+
+                        }
+                        .img-pre{
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            width: 100%;
+                            height: @height;
+                            overflow: hidden;
+
+                            .img-pre-title{
+                                width: 100%;
+                                word-break: normal;
+                                padding-left: 10px;
+                                padding-right: @height;
+                                line-height: @height;
+                            }
+                        }
+                    }
+                    .pre-box{
+                        display: none;
+                        .pre-title{
+
+                        }
+                        .pre-sub-title{
+
+                        }
+                        .pre{
+
+                        }
+
+                    }
+                    .counter-box{
+                        .count{
+                            position: absolute;
+                            right: 2%;
+                            bottom: 1%;
+
+                        }
+                    }
+
+                    .type,
+                    .page,
+                    .count{
+                        display: inline-block;
+                        width: @height;
+                        height: @height;
+                        line-height: @height;
+                        background-color: rgba(0,0,0,0.5);
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        #main-about{
+            display: none;
+        }
+        #main-life{
+            display: none;
+        }
+        #main-study{
+            display: none;
+        }
+        #main-work{
+            display: block;
+        }
+    }
+
+}
+
+.img-pre-title{
+    font-size: 18px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+.pre-title{
+    font-size: 18px;
+    margin: 10px 5px 5px;
+    #util .ellipsis();
+}
+.pre-sub-title{
+    font-size: 14px;
+    color: #999;
+    margin: 0 5px;
+    #util .ellipsis();
+}
+.pre{
+    text-align: left;
+}
+.type,
+.page,
+.count{
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+    text-align: center;
+
+}
+.type{
+    font-size: 18px;
+}
+.page{
+    font-size: 18px;
+}
+.count{
+    font-size: 24px;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+}
+
+/* banner */
+.banner-area{
+    margin: 10px 0;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    .banner-content{
+        li{
+            height: 50px;
+            a{
+                display: block;
+                height: 100%;
+                text-align: center;
+                background-color: #ccc;
+                #util .vam();
+
+            }
+        }
+    }
+}
