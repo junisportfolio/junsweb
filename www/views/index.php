@@ -586,6 +586,73 @@
                             </ul>
                         </div>
                     </div>
+
+                    <div class="bookmark">
+                        <h4><a href="#">BookMark</a></h4>
+                        <ul class="marking-list">
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
 
                 <div id="main-study" class="main-section">
@@ -918,6 +985,73 @@
                             </ul>
                         </div>
                     </div>
+
+                    <div class="bookmark">
+                        <h4><a href="#">BookMark</a></h4>
+                        <ul class="marking-list">
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img-box">
+                                        <span class="img" style="background-image: url();"></span>
+                                    </div>
+                                    <div class="pre-box">
+                                        <p class="title">Lorem ipsum.</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
 
                 <div id="main-work" class="main-section">

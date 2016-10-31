@@ -398,12 +398,10 @@
                 text-align: center;
                 background-color: #ccc;
                 #util .vam();
-
             }
         }
     }
 }
-
 
 .toggle-menu{
     .toggle-content{
@@ -417,6 +415,58 @@
     &.active,{
         .toggle-content{
             display: block;
+        }
+    }
+}
+.bookmark{
+    h4{
+        a{
+            display: block;
+            height: 50px;
+            line-height: 50px;
+            overflow: hidden;
+            background-color: #000;
+
+        }
+    }
+    .marking-list{
+        padding: 10px;
+
+        &:after{
+            clear: both;
+            display: block;
+            content: '';
+        }
+        
+        li{
+            width: 50%;
+            float: left;
+            padding: 5px;
+            a{
+                >div{
+                    padding: 5px;
+
+                }
+                .img-box{
+                    border: 1px solid #eee;
+                    border-bottom: none;
+                    .img{
+                        display: inline-block;
+                        padding-bottom: 35%;;
+                        background-position: 0 0;
+                        background-repeat: no-repeat;
+                        background-image: url();
+                    }
+                }
+                .pre-box{
+                    background-color: #eee;
+                    .title{
+                        margin: 0;
+                        padding: 0;
+                        line-height: 30px;
+                    }
+                }
+            }
         }
     }
 }

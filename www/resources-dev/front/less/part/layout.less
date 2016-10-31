@@ -1,14 +1,19 @@
+@header-height: 50px;
+@footer-height: 150px;
+
 h1,h2,h3,h4,h5,h6{
 	padding: 0;
 	margin: 0;
 }
 
-@header-height: 50px;
 body,
 #wrap{
 	&.fixed{
 		position: fixed;
 	}
+}
+.container{
+	position: relative;
 }
 #wrap{
 	width: 100%;
@@ -27,12 +32,12 @@ body,
 #container{
 	min-height: 100%;
 	padding-top: @header-height;
-	padding-bottom: 150px;
+	padding-bottom: @footer-height;
 	margin-top: -@header-height;
-	margin-bottom: -150px;
+	margin-bottom: -@footer-height;
 }
 #footer{
-	height: 150px;
+	height: @footer-height;
 	background-color: #eee;
 	text-align: center;
 }
@@ -42,6 +47,7 @@ body,
 	a{
 		display: inline-block;
 		height: @header-height;
+		line-height: @header-height;
 		font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
 	}
 }

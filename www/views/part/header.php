@@ -9,14 +9,14 @@
 				<h2 class="sr-only">메인 메뉴</h2>
 				<a href="#" class="sitemap"><i class="fa fa-bars" aria-hidden="true"></i></a>
 				<ul>
-					<li><a href="#"><span>About</span></a>
+					<li class="eq-01"><a href="#"><span>About</span></a>
 						<ul>
 							<li><a href="#"><span>Juni</span></a></li>
 							<li><a href="#"><span>Profile</span></a></li>
 							<li><a href="#"><span>Contact</span></a></li>
 						</ul>
 					</li>
-					<li><a href="#"><span>Life</span></a>
+					<li class="eq-02"><a href="#"><span>Life</span></a>
 						<ul>
 							<li><a href="#"><span>Faith</span></a></li>
 							<li><a href="#"><span>Daily</span></a></li>
@@ -25,7 +25,7 @@
 							<li><a href="#"><span>Book</span></a></li>
 						</ul>
 					</li>
-					<li><a href="#"><span>Study</span></a>
+					<li class="eq-03"><a href="#"><span>Study</span></a>
 						<ul>
 							<li><a href="#"><span>English</span></a></li>
 							<li><a href="#"><span>HTML</span></a></li>
@@ -35,7 +35,7 @@
 							<li><a href="#"><span>PHP</span></a></li>
 						</ul>
 					</li>
-					<li><a href="#"><span>Work</span></a>
+					<li class="eq-04"><a href="#"><span>Work</span></a>
 						<ul>
 							<li><a href="#"><span>Protfolio</span></a></li>
 						</ul>
