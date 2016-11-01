@@ -26,7 +26,7 @@
                         <h3 class="sr-only">메인 컨텐츠</h3>
                         <div id="main-about-1" class="main-section active">
                             <ul class="list">
-                                <li>
+                                <li class="on">
                                     <a href="#">Lorem ipsum dolor sit amet.
                                         <span class="date">Lorem ipsum.</span>
                                     </a>

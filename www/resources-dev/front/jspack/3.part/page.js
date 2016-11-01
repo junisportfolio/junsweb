@@ -23,9 +23,25 @@
 					$content.siblings().removeClass('active');
 				});
 			});
+		});
+		var $body = $('body, #wrap');
+		var $header = $('#header');
 
+		$('#lnb').each(function(){
+			var $lnb = $(this);
+			var $Ul = $('>ul', $lnb);
+			var $Li = $('>li', $Ul);
+
+            $lnb.on('mouseenter', function(){
+                $header.addClass('active');
+            });
+            $lnb.on('mouseleave', function(){
+                $header.removeClass('active');
+            });
 
 		});
+
+
 
 	});
 

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c244c1d7-ff00-440d-9bc9-237ad3689fc9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/resources-dev/front/jspack/2.components/hogi.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/resources-dev/front/less/part/page/page-index.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/resources-dev/front/less/part/page-index.less" afterPath="$PROJECT_DIR$/www/resources-dev/front/less/part/page/page-index-tablet.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/resources-dev/front/less/part/layout-desktop.less" afterPath="$PROJECT_DIR$/www/resources-dev/front/less/part/layout-desktop.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/resources-dev/front/less/part/layout.less" afterPath="$PROJECT_DIR$/www/resources-dev/front/less/part/layout.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/resources-dev/front/less/part/page-index.less" afterPath="$PROJECT_DIR$/www/resources-dev/front/less/part/page-index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js" afterPath="$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/resources-dev/front/less/phone.less" afterPath="$PROJECT_DIR$/www/resources-dev/front/less/phone.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/resources-dev/front/less/tablet.less" afterPath="$PROJECT_DIR$/www/resources-dev/front/less/tablet.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/index.php" afterPath="$PROJECT_DIR$/www/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/part/header.php" afterPath="$PROJECT_DIR$/www/views/part/header.php" />
     </list>
     <ignored path="junisweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,20 +32,60 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="page-index.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/page-index.less">
+            <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/page/page-index.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6195">
-                  <caret line="413" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="471" selection-end-column="1" />
+                <state relative-caret-position="186">
+                  <caret line="352" column="5" selection-start-line="352" selection-start-column="5" selection-end-line="352" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="layout-desktop.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="phone.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/phone.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tablet.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/tablet.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page-index-tablet.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/page/page-index-tablet.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="layout-desktop.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/layout-desktop.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+                <state relative-caret-position="45">
+                  <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="447">
+                  <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -65,7 +105,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/views/part/header.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
@@ -75,24 +115,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/views/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16830">
-                  <caret line="1122" column="9" selection-start-line="1122" selection-start-column="9" selection-end-line="1122" selection-end-column="9" />
+                <state relative-caret-position="120">
+                  <caret line="348" column="47" selection-start-line="348" selection-start-column="47" selection-end-line="348" selection-end-column="47" />
                   <folding>
-                    <element signature="e#39252#39284#0#HTML" expanded="true" />
-                    <element signature="e#39776#39808#0#HTML" expanded="true" />
-                    <element signature="e#40300#40332#0#HTML" expanded="true" />
-                    <element signature="e#40824#40856#0#HTML" expanded="true" />
-                    <element signature="e#41348#41380#0#HTML" expanded="true" />
-                    <element signature="e#41872#41904#0#HTML" expanded="true" />
-                    <element signature="e#65102#65134#0#HTML" expanded="true" />
-                    <element signature="e#65626#65658#0#HTML" expanded="true" />
-                    <element signature="e#66150#66182#0#HTML" expanded="true" />
-                    <element signature="e#66674#66706#0#HTML" expanded="true" />
-                    <element signature="e#67198#67230#0#HTML" expanded="true" />
-                    <element signature="e#67722#67754#0#HTML" expanded="true" />
+                    <element signature="e#39263#39295#0#HTML" expanded="true" />
+                    <element signature="e#39787#39819#0#HTML" expanded="true" />
+                    <element signature="e#40311#40343#0#HTML" expanded="true" />
+                    <element signature="e#40835#40867#0#HTML" expanded="true" />
+                    <element signature="e#41359#41391#0#HTML" expanded="true" />
+                    <element signature="e#41883#41915#0#HTML" expanded="true" />
+                    <element signature="e#65113#65145#0#HTML" expanded="true" />
+                    <element signature="e#65637#65669#0#HTML" expanded="true" />
+                    <element signature="e#66161#66193#0#HTML" expanded="true" />
+                    <element signature="e#66685#66717#0#HTML" expanded="true" />
+                    <element signature="e#67209#67241#0#HTML" expanded="true" />
+                    <element signature="e#67733#67765#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -110,18 +150,21 @@
       <list>
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/layout-largedesktop.less" />
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/lib/util.less" />
-        <option value="$PROJECT_DIR$/www/resources-dev/front/less/phone.less" />
         <option value="$PROJECT_DIR$/www/views/part/footer.php" />
-        <option value="$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js" />
         <option value="$PROJECT_DIR$/www/views/inc/helper.php" />
         <option value="$PROJECT_DIR$/www/views/part/app-header.php" />
         <option value="$PROJECT_DIR$/www/views/php/mail_send_func.php" />
-        <option value="$PROJECT_DIR$/www/views/index.php" />
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/page-index.less" />
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/layout-tablet.less" />
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/layout.less" />
-        <option value="$PROJECT_DIR$/www/views/part/header.php" />
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/layout-desktop.less" />
+        <option value="$PROJECT_DIR$/www/views/part/header.php" />
+        <option value="$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js" />
+        <option value="$PROJECT_DIR$/www/resources-dev/front/less/phone.less" />
+        <option value="$PROJECT_DIR$/www/resources-dev/front/less/tablet.less" />
+        <option value="$PROJECT_DIR$/www/views/index.php" />
+        <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/page/page-index.less" />
+        <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/page/page-index-tablet.less" />
       </list>
     </option>
   </component>
@@ -359,6 +402,40 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="junisweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="junisweb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="jsvendor-dev-only" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -414,34 +491,8 @@
               <option name="myItemId" value="jspack" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="junisweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="junisweb" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources-dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jspack" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.components" />
+              <option name="myItemId" value="3.part" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,10 +519,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jspack" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,14 +557,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../study/green" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\junis\portfolio\ver-1\www\views\inc" />
-      <recent name="C:\workspace\junis\portfolio\ver-1\www\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/resources-dev/front/less/part/page" />
       <recent name="C:\workspace\junis\portfolio\ver-1\www\views\inc" />
       <recent name="C:\workspace\junis\portfolio\ver-1\www\php" />
       <recent name="C:\workspace\junis\portfolio\ver-1\www" />
+      <recent name="C:\workspace\junis\portfolio\ver-1\www\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/resources-dev/front/less/part/page" />
+      <recent name="C:\workspace\junis\portfolio\ver-1\www\views\inc" />
       <recent name="C:\workspace\junis\portfolio\ver-1\www\views" />
     </key>
   </component>
@@ -589,12 +638,12 @@
       <workItem from="1477802662052" duration="1402000" />
       <workItem from="1477830874964" duration="11495000" />
       <workItem from="1477843482502" duration="5000" />
-      <workItem from="1477870793409" duration="6892000" />
+      <workItem from="1477870793409" duration="9963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33957000" />
+    <option name="totallyTimeSpent" value="37028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="23" width="1245" height="777" extended-state="6" />
@@ -635,21 +684,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/lib/config.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/lib/util.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/views/part/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -662,18 +696,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#39252#39284#0#HTML" expanded="true" />
-            <element signature="e#39776#39808#0#HTML" expanded="true" />
-            <element signature="e#40300#40332#0#HTML" expanded="true" />
-            <element signature="e#40824#40856#0#HTML" expanded="true" />
-            <element signature="e#41348#41380#0#HTML" expanded="true" />
-            <element signature="e#41872#41904#0#HTML" expanded="true" />
-            <element signature="e#65102#65134#0#HTML" expanded="true" />
-            <element signature="e#65626#65658#0#HTML" expanded="true" />
-            <element signature="e#66150#66182#0#HTML" expanded="true" />
-            <element signature="e#66674#66706#0#HTML" expanded="true" />
-            <element signature="e#67198#67230#0#HTML" expanded="true" />
-            <element signature="e#67722#67754#0#HTML" expanded="true" />
+            <element signature="e#39263#39295#0#HTML" expanded="true" />
+            <element signature="e#39787#39819#0#HTML" expanded="true" />
+            <element signature="e#40311#40343#0#HTML" expanded="true" />
+            <element signature="e#40835#40867#0#HTML" expanded="true" />
+            <element signature="e#41359#41391#0#HTML" expanded="true" />
+            <element signature="e#41883#41915#0#HTML" expanded="true" />
+            <element signature="e#65113#65145#0#HTML" expanded="true" />
+            <element signature="e#65637#65669#0#HTML" expanded="true" />
+            <element signature="e#66161#66193#0#HTML" expanded="true" />
+            <element signature="e#66685#66717#0#HTML" expanded="true" />
+            <element signature="e#67209#67241#0#HTML" expanded="true" />
+            <element signature="e#67733#67765#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -716,7 +750,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/page-index.less">
+    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/page/page-index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
@@ -736,6 +770,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,18 +794,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#39252#39284#0#HTML" expanded="true" />
-            <element signature="e#39776#39808#0#HTML" expanded="true" />
-            <element signature="e#40300#40332#0#HTML" expanded="true" />
-            <element signature="e#40824#40856#0#HTML" expanded="true" />
-            <element signature="e#41348#41380#0#HTML" expanded="true" />
-            <element signature="e#41872#41904#0#HTML" expanded="true" />
-            <element signature="e#65102#65134#0#HTML" expanded="true" />
-            <element signature="e#65626#65658#0#HTML" expanded="true" />
-            <element signature="e#66150#66182#0#HTML" expanded="true" />
-            <element signature="e#66674#66706#0#HTML" expanded="true" />
-            <element signature="e#67198#67230#0#HTML" expanded="true" />
-            <element signature="e#67722#67754#0#HTML" expanded="true" />
+            <element signature="e#39263#39295#0#HTML" expanded="true" />
+            <element signature="e#39787#39819#0#HTML" expanded="true" />
+            <element signature="e#40311#40343#0#HTML" expanded="true" />
+            <element signature="e#40835#40867#0#HTML" expanded="true" />
+            <element signature="e#41359#41391#0#HTML" expanded="true" />
+            <element signature="e#41883#41915#0#HTML" expanded="true" />
+            <element signature="e#65113#65145#0#HTML" expanded="true" />
+            <element signature="e#65637#65669#0#HTML" expanded="true" />
+            <element signature="e#66161#66193#0#HTML" expanded="true" />
+            <element signature="e#66685#66717#0#HTML" expanded="true" />
+            <element signature="e#67209#67241#0#HTML" expanded="true" />
+            <element signature="e#67733#67765#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,18 +823,18 @@
         <state relative-caret-position="60">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding>
-            <element signature="e#39252#39284#0#HTML" expanded="true" />
-            <element signature="e#39776#39808#0#HTML" expanded="true" />
-            <element signature="e#40300#40332#0#HTML" expanded="true" />
-            <element signature="e#40824#40856#0#HTML" expanded="true" />
-            <element signature="e#41348#41380#0#HTML" expanded="true" />
-            <element signature="e#41872#41904#0#HTML" expanded="true" />
-            <element signature="e#65102#65134#0#HTML" expanded="true" />
-            <element signature="e#65626#65658#0#HTML" expanded="true" />
-            <element signature="e#66150#66182#0#HTML" expanded="true" />
-            <element signature="e#66674#66706#0#HTML" expanded="true" />
-            <element signature="e#67198#67230#0#HTML" expanded="true" />
-            <element signature="e#67722#67754#0#HTML" expanded="true" />
+            <element signature="e#39263#39295#0#HTML" expanded="true" />
+            <element signature="e#39787#39819#0#HTML" expanded="true" />
+            <element signature="e#40311#40343#0#HTML" expanded="true" />
+            <element signature="e#40835#40867#0#HTML" expanded="true" />
+            <element signature="e#41359#41391#0#HTML" expanded="true" />
+            <element signature="e#41883#41915#0#HTML" expanded="true" />
+            <element signature="e#65113#65145#0#HTML" expanded="true" />
+            <element signature="e#65637#65669#0#HTML" expanded="true" />
+            <element signature="e#66161#66193#0#HTML" expanded="true" />
+            <element signature="e#66685#66717#0#HTML" expanded="true" />
+            <element signature="e#67209#67241#0#HTML" expanded="true" />
+            <element signature="e#67733#67765#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -884,14 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/phone.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/views/part/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -903,6 +930,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -919,13 +947,6 @@
         <state relative-caret-position="494">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1005,14 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/page-index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6195">
-          <caret line="413" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="471" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/layout.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1029,27 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16830">
-          <caret line="1122" column="9" selection-start-line="1122" selection-start-column="9" selection-end-line="1122" selection-end-column="9" />
-          <folding>
-            <element signature="e#39252#39284#0#HTML" expanded="true" />
-            <element signature="e#39776#39808#0#HTML" expanded="true" />
-            <element signature="e#40300#40332#0#HTML" expanded="true" />
-            <element signature="e#40824#40856#0#HTML" expanded="true" />
-            <element signature="e#41348#41380#0#HTML" expanded="true" />
-            <element signature="e#41872#41904#0#HTML" expanded="true" />
-            <element signature="e#65102#65134#0#HTML" expanded="true" />
-            <element signature="e#65626#65658#0#HTML" expanded="true" />
-            <element signature="e#66150#66182#0#HTML" expanded="true" />
-            <element signature="e#66674#66706#0#HTML" expanded="true" />
-            <element signature="e#67198#67230#0#HTML" expanded="true" />
-            <element signature="e#67722#67754#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/views/part/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1058,10 +1050,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/phone.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/page/page-index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="352" column="5" selection-start-line="352" selection-start-column="5" selection-end-line="352" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/layout-desktop.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="45">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="348" column="47" selection-start-line="348" selection-start-column="47" selection-end-line="348" selection-end-column="47" />
+          <folding>
+            <element signature="e#39263#39295#0#HTML" expanded="true" />
+            <element signature="e#39787#39819#0#HTML" expanded="true" />
+            <element signature="e#40311#40343#0#HTML" expanded="true" />
+            <element signature="e#40835#40867#0#HTML" expanded="true" />
+            <element signature="e#41359#41391#0#HTML" expanded="true" />
+            <element signature="e#41883#41915#0#HTML" expanded="true" />
+            <element signature="e#65113#65145#0#HTML" expanded="true" />
+            <element signature="e#65637#65669#0#HTML" expanded="true" />
+            <element signature="e#66161#66193#0#HTML" expanded="true" />
+            <element signature="e#66685#66717#0#HTML" expanded="true" />
+            <element signature="e#67209#67241#0#HTML" expanded="true" />
+            <element signature="e#67733#67765#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/tablet.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/page/page-index-tablet.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
           <folding />
         </state>
       </provider>
